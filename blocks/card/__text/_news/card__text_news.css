@@ -1,0 +1,19 @@
+.card__text_news {
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .card__text_news {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card__text_news {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+}

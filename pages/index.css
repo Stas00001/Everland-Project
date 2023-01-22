@@ -1,7 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
-
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__description/projects__description.css);
 @import url(../blocks/projects/__heading/projects__heading.css);
@@ -11,7 +10,6 @@
 @import url(../blocks/projects/__button/projects__button_left.css);
 @import url(../blocks/projects/__button/projects__button_right.css);
 @import url(../blocks/projects/__image/projects__image.css);
-
 @import url(../blocks/stories/stories.css);
 @import url(../blocks/stories/__box-title/stories__box-title.css);
 @import url(../blocks/stories/__title/stories__title.css);
@@ -44,6 +42,57 @@
 @import url(../blocks/stories/__double-name-button/stories__double-name-button.css);
 @import url(../blocks/stories/__double-name/stories__double-name.css);
 @import url(../blocks/stories/__double-button/stories__double-button.css);
-
-
 @import url(../blocks/agency/agency.css);
+@import url(../blocks/numbers/numbers.css);
+@import url(../blocks/numbers/__table/numbers__table.css);
+@import url(../blocks/numbers/__list/numbers__list.css);
+@import url(../blocks/numbers/__item/numbers__item.css);
+@import url(../blocks/numbers/__subtitle/numbers__subtitle.css);
+@import url(../blocks/numbers/__number/numbers__number.css);
+@import url(../blocks/numbers/__paragraph/numbers__paragraph.css);
+@import url(../blocks/numbers/__img/numbers__img.css);
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__list/advantages__list.css);
+@import url(../blocks/advantages/__item/advantages__item.css);
+@import url(../blocks/advantages/__subtitle/advantages__subtitle.css);
+@import url(../blocks/advantages/__span/advantages__span.css);
+@import url(../blocks/page/__container/page__container.css);
+@import url(../blocks/donations/donations.css);
+@import url(../blocks/donations/__btns/donations__btns.css);
+@import url(../blocks/donations/__radio/donations__radio.css);
+@import url(../blocks/donations/__radio-off/donations__radio-off.css);
+@import url(../blocks/everland/everland.css);
+@import url(../blocks/everland/__image-block/everland__image-block.css);
+@import url(../blocks/everland/__image-one/everland__image-one.css);
+@import url(../blocks/everland/__image-two/everland__image-two.css);
+@import url(../blocks/everland/__slader-btn/everland__slader-btn.css);
+@import url(../blocks/everland/__slader-btn/everland__slader-btn_left.css);
+@import url(../blocks/everland/__slader-swither/everland__slader-swither.css);
+@import url(../blocks/everland/__subtitle/everland__subtitle.css);
+@import url(../blocks/everland/__title/everland__title.css);
+@import url(../blocks/everland/__text/everland__text.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__btn/header__btn.css);
+@import url(../blocks/header/__btn/header__btn_white.css);
+@import url(../blocks/header/__buttons/header__buttons.css);
+@import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/links/links.css);
+@import url(../blocks/links/__item/links__item.css);
+@import url(../blocks/links/__items/links__items.css);
+@import url(../blocks/menu/__arrow/menu__arrow.css);
+@import url(../blocks/menu/__body/menu__body.css);
+@import url(../blocks/menu/__conteiner/menu__conteiner.css);
+@import url(../blocks/menu/__icon/menu__icon.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__list/menu__list.css);
+@import url(../blocks/menu/__list-sub/menu__list-sub.css);
+@import url(../blocks/menu/__sub-item/menu__sub-item.css);
+@import url(../blocks/menu/__sub-link/menu__sub-link.css);
+@import url(../blocks/menu/__sub-list/menu__sub-list.css);
+@import url(../blocks/menu/__text/menu__text.css);
+@import url(../blocks/slider/__container/slider__container.css);
+@import url(../blocks/slider/__content/slider__content.css);
+@import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/__slade-conteiner/slider__slade-conteiner.css);

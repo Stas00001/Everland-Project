@@ -1,0 +1,18 @@
+.news {
+  padding: 100px 0;
+  font-weight: 400;
+  border-radius: 30px;
+  color: #333;
+}
+
+@media screen and (max-width: 1000px) {
+  .news {
+    padding: 50px 0;
+  }
+}
+  
+@media screen and (max-width: 500px) {
+  .news {
+    padding: 32px 0;
+  }
+}

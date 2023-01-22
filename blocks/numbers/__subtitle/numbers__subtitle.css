@@ -1,0 +1,22 @@
+.numbers__subtitle {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 5px;
+    font-size: 34px;
+}
+
+@media (max-width: 768px) {
+    .numbers__subtitle {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .numbers__subtitle {
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+}

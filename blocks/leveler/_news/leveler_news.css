@@ -1,0 +1,23 @@
+.leveler_news {
+    display: grid;
+    grid-template-areas: 
+      "news-title . news_button"
+      "news-storage news-storage news-storage";
+    row-gap: 50px;
+  }
+    
+  @media screen and (max-width: 1000px){
+    .leveler_news {
+      grid-template-areas: 
+        "news-title ."
+        "news-storage news-storage"
+        "news_button news_button";
+      row-gap: 32px;
+    } 
+  }
+  
+  @media screen and (max-width: 500px) {
+    .leveler_news {
+      row-gap: 0;
+    }
+  }
