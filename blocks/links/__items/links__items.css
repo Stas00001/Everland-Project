@@ -1,0 +1,9 @@
+.links__items {
+  margin: 90px 0 60px 0;
+  display: flex;
+  justify-content: space-between;
+  color: #333333;
+  list-style: none;
+  padding: 0;
+
+}

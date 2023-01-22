@@ -1,0 +1,4 @@
+.slider__content {
+  display: flex;
+  transition:  all .3s ease 0s;
+}
