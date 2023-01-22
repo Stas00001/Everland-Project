@@ -1,0 +1,20 @@
+.for-whom__head {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .for-whom__head {
+        font-size: 26px;
+    }
+}
+    
+@media screen and (max-width: 460px) {
+    .for-whom__head {
+        font-size: 18px;
+    }
+}
