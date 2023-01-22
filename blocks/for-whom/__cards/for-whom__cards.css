@@ -1,0 +1,31 @@
+.for-whom__cards {
+  max-width: min(100%, 1360px);
+  min-width: 300px;
+  margin: 50px auto 100px;
+  padding: 0 20px 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(334px, max-content));
+  justify-content: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1080px) {
+  .for-whom__cards {
+    grid-template-columns: repeat(2, minmax(334px, max-content));
+  }
+}
+  
+@media screen and (max-width: 768px) {
+  .for-whom__cards {
+    margin: 32px auto 50px;
+    grid-template-columns: repeat(1, minmax(450px, max-content));
+  }
+}
+  
+@media screen and (max-width: 460px) {
+  .for-whom__cards {
+    margin: 24px auto 32px;
+    grid-template-columns: repeat(1, minmax(300px, max-content));
+    gap: 16px;
+  }
+}
