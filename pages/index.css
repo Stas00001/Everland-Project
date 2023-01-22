@@ -1,0 +1,49 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__description/projects__description.css);
+@import url(../blocks/projects/__heading/projects__heading.css);
+@import url(../blocks/projects/__text/projects__text.css);
+@import url(../blocks/projects/__link/projects__link.css);
+@import url(../blocks/projects/__buttons/projects__buttons.css);
+@import url(../blocks/projects/__button/projects__button_left.css);
+@import url(../blocks/projects/__button/projects__button_right.css);
+@import url(../blocks/projects/__image/projects__image.css);
+
+@import url(../blocks/stories/stories.css);
+@import url(../blocks/stories/__box-title/stories__box-title.css);
+@import url(../blocks/stories/__title/stories__title.css);
+@import url(../blocks/stories/__title/stories__title_desktop.css);
+@import url(../blocks/stories/__title/stories__title_mob.css);
+@import url(../blocks/stories/__button-open/stories__button-open.css);
+@import url(../blocks/stories/__button-open/stories__button-open_deactivate.css);
+@import url(../blocks/stories/__button-open/stories__button-open_active.css);
+@import url(../blocks/stories/__box-profile/stories__box-profile.css);
+@import url(../blocks/stories/__box-profile/stories__box-profile_flex.css);
+@import url(../blocks/stories/__foto/stories__foto.css);
+@import url(../blocks/stories/__foto/stories__foto_gilfanov.css);
+@import url(../blocks/stories/__foto/stories__foto_chernishov.css);
+@import url(../blocks/stories/__foto/stories__foto_double.css);
+@import url(../blocks/stories/__foto/stories__foto_mob.css);
+@import url(../blocks/stories/__foto/stories__foto_desktop.css);
+@import url(../blocks/stories/__person-titlebox/stories__person-titlebox.css);
+@import url(../blocks/stories/__icons/stories__icons.css);
+@import url(../blocks/stories/__box-person/stories__box-person.css);
+@import url(../blocks/stories/__zagolovok/stories__zagolovok.css);
+@import url(../blocks/stories/__description/stories__description.css);
+@import url(../blocks/stories/__button-right/stories__button-right.css);
+@import url(../blocks/stories/__button-box/stories__button-box.css);
+@import url(../blocks/stories/__person-button/stories__person-button.css);
+@import url(../blocks/stories/__links/stories__links.css);
+@import url(../blocks/stories/__box-double/stories__box-double.css);
+@import url(../blocks/stories/__box-double-person/stories__box-double-person.css);
+@import url(../blocks/stories/__double-description/stories__double-description.css);
+@import url(../blocks/stories/__name/stories__name.css);
+@import url(../blocks/stories/__double-name-button/stories__double-name-button.css);
+@import url(../blocks/stories/__double-name/stories__double-name.css);
+@import url(../blocks/stories/__double-button/stories__double-button.css);
+
+
+@import url(../blocks/agency/agency.css);
