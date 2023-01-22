@@ -1,0 +1,9 @@
+.everland {
+  display: grid;
+}
+
+@media screen and (max-width: 740px) {
+.everland {
+  grid-template-columns: 1fr;
+}
+}

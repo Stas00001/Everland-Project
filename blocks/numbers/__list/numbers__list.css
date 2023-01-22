@@ -1,0 +1,17 @@
+.numbers__list {
+    margin: 0;
+    padding: 0;
+    max-width: 670px;
+    align-self: center;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 320px) {
+    .numbers__list {
+        margin-bottom: 24px;
+        display: block;
+    }
+}

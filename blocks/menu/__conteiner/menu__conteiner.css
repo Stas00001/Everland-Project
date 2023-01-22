@@ -1,0 +1,17 @@
+.menu__conteiner {
+ display: flex;
+ align-items: flex-start;
+ justify-content: space-between;
+ max-width: calc(100% - 80px);
+}
+@media screen and (max-width: 990px) {
+.menu__conteiner {
+  flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 740px) {
+  .menu__conteiner{
+  flex-direction: column;
+  }
+}
