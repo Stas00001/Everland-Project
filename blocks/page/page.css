@@ -1,17 +1,12 @@
 .page {
-
-  max-width: 1440px;
-  margin: 0 auto;
-  font-family: "Raleway", Arial, sans-serif;
-  box-sizing: border-box;
-  background-color: #ffff;
-  text-rendering: optimizeLegibility;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-}
-
-body._lock{
-  overflow: hidden;
+    width: 100%;
+    font-family: "Raleway", Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    color: #333333;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
 }
