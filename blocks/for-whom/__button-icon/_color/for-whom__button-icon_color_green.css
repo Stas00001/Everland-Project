@@ -1,0 +1,15 @@
+.for-whom__button-icon_color_green {
+    background-image: url('../../../../images/icon/arrow_forward_green.svg');
+}
+
+.for-whom__button_color_green:hover .for-whom__button-icon_color_green {
+    background-image: url('../../../../images/icon/arrow_forward_white.svg');
+}
+
+.for-whom__button_color_green:active .for-whom__button-icon_color_green {
+    background-image: url('../../../../images/icon/arrow_forward_white.svg');
+}
+
+.for-whom__button_color_green:disabled .for-whom__button-icon_color_green {
+    background-image: url('../../../../images/icon/arrow_forward_color_disabled.svg');
+}
