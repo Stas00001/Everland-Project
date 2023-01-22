@@ -1,0 +1,12 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/numbers/numbers.css);
+@import url(../blocks/numbers/__table/numbers__table.css);
+@import url(../blocks/numbers/__list/numbers__list.css);
+@import url(../blocks/numbers/__item/numbers__item.css);
+@import url(../blocks/numbers/__subtitle/numbers__subtitle.css);
+@import url(../blocks/numbers/__number/numbers__number.css);
+@import url(../blocks/numbers/__paragraph/numbers__paragraph.css);
+@import url(../blocks/numbers/__img/numbers__img.css);

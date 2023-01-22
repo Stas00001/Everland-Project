@@ -1,0 +1,26 @@
+.numbers {
+    width: calc(100% - 80px);
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    margin-bottom: 150px;
+}
+
+@media (max-width: 768px) {
+    .numbers {
+        max-width: 688px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 320px) {
+    .numbers {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 64px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

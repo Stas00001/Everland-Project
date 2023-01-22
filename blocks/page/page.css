@@ -1,0 +1,13 @@
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: "Raleway", Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+    color: #FFFFFF;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
