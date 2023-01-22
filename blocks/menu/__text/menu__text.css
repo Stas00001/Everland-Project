@@ -1,0 +1,14 @@
+.menu__text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 740px) {
+
+.menu__text {
+  display: none;
+
+}
+}
