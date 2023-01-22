@@ -13,5 +13,6 @@
 >
 **Бриф проекта**
 https://www.notion.so/Everland-1-d3d4576f78ca451ab2331b6b0795d72c
+
 **Открыть проект**
 [https://stas00001.github.io/mesto-project/index.html]
