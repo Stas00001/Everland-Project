@@ -1,6 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__list/advantages__list.css);
+@import url(../blocks/advantages/__item/advantages__item.css);
+@import url(../blocks/advantages/__subtitle/advantages__subtitle.css);
+@import url(../blocks/advantages/__span/advantages__span.css);
 @import url(../blocks/page/__container/page__container.css);
 @import url(../blocks/donations/donations.css);
 @import url(../blocks/donations/__btns/donations__btns.css);
@@ -41,3 +46,4 @@
 @import url(../blocks/slider/__content/slider__content.css);
 @import url(../blocks/slider/__item/slider__item.css);
 @import url(../blocks/slider/__slade-conteiner/slider__slade-conteiner.css);
+
