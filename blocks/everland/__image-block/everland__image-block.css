@@ -1,0 +1,13 @@
+.everland__image-block {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin: 5px;
+}
+@media screen and (max-width: 740px) {
+  .everland__image-block {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}

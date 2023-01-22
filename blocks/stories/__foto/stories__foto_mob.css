@@ -1,0 +1,5 @@
+@media (min-width: 521px) and (max-width: 10000px) {
+  .stories__foto_mob {
+    display: none;
+  }
+}

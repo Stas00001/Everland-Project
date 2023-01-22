@@ -1,0 +1,34 @@
+.projects__buttons {
+  display: flex;
+  align-items: stretch;
+  align-self: flex-end;
+  padding: 0 56px 0 8px;
+  grid-area: projects__buttons;
+}
+
+@media screen and (max-width: 1308px) {
+  .projects__buttons {
+    padding: 0;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1308px) {
+  .projects__buttons {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .projects__buttons {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .projects__buttons {
+    padding-bottom: 20px;
+  }
+}
