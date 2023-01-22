@@ -1,0 +1,18 @@
+.menu__sub-link {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #333333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 740px) {
+
+.menu__sub-link {
+  font-size: 14px;
+}
+.menu__sub-item:first-child {
+  padding: 20px 0 10px 0;
+}
+}

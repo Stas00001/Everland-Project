@@ -1,0 +1,15 @@
+.everland__slader-btn {
+  background-color: #0C4BA0;
+  width: 35px;
+  height: 35px;
+  color: #ffff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background .3s linear;
+}
+
+.everland__slader-btn:active {
+  background-color: #333333;
+  transition: background .3s linear;
+}

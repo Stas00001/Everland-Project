@@ -1,0 +1,5 @@
+@media screen and (max-width: 990px) {
+  .links {
+    display: none;
+  }
+}
