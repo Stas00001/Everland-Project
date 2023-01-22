@@ -1,0 +1,7 @@
+.numbers__number {
+    color: #0C4BA0;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
