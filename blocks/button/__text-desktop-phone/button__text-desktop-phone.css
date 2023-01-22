@@ -1,0 +1,15 @@
+.button__text-desktop-phone {
+    display: inline-block;
+}
+
+@media screen and (max-width: 1000px) {
+  .button__text-desktop-phone {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .button__text-desktop-phone {
+    display: inline-block;
+  }
+}
