@@ -1,0 +1,31 @@
+.advantages__item {
+    padding: 29.5px 20px;
+    box-sizing: border-box;
+    border: 2px solid #DADADA;
+    border-radius: 30px;
+}
+
+.advantages__item[open] {
+    padding: 21px 20px;
+}
+
+@media (max-width: 1100px) {
+    .advantages__item {
+        padding: 20.5px 20px;
+        border-radius: 20px;
+    }
+
+    .advantages__item[open] {
+        padding: 30.5px 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .advantages__item {
+        padding: 17px 16px;
+    }
+
+    .advantages__item[open] {
+        padding: 21px 16px;
+    }
+}
