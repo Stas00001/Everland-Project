@@ -1,0 +1,21 @@
+.card__tag_news {
+  font-size: 18px;
+  line-height: 130%;
+  margin: 0 0 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .card__tag_news {
+    font-size: 14px;
+    font-size: 16.8px;
+    margin: 0 0 19px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card__tag_news {
+    font-size: 12px;
+    line-height: 14.4px;
+    margin: 0 0 19px;
+  }
+}

@@ -3,6 +3,7 @@
     margin: 0 auto;
     font-family: "Raleway", Arial, sans-serif;
     box-sizing: border-box;
+
     background-color: #FFFFFF;
     color: #333333;
     text-rendering: optimizeLegibility;
@@ -12,9 +13,7 @@
     -moz-text-size-adjust: 100%;
 }
 
-
 body._lock{
   overflow: hidden;
 }
-
 

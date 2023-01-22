@@ -1,0 +1,19 @@
+.news__container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-area: news-storage;
+}
+
+@media screen and (max-width: 1000px) {
+  .news__container {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .news__container {
+    gap: 16px;
+    margin: 0 0 32px;
+  }
+}
