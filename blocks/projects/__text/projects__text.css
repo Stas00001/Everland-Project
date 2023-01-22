@@ -1,0 +1,44 @@
+.projects__text {
+  width: 427px;
+  align-self: start;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #333;
+  padding-top: 20px;
+  margin: 0;
+  grid-area: projects__text;
+}
+
+@media screen and (max-width: 1096px) {
+  .projects__text {
+    padding-top: 10px;
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects__text {
+    font-size: 16px;
+    line-height: 120%;
+    width: 315px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .projects__text {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .projects__text {
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: start;
+  }
+}

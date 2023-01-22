@@ -1,0 +1,20 @@
+.projects__button_left {
+  background-image: url(./../../../images/button-projects-left.svg);
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  border-style: none;
+  margin-right: 8px;
+}
+
+.projects__button_left:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__button_left {
+    background-image: url(./../../../images/button-projects-left-24.svg);
+    width: 24px;
+    height: 24px;
+  }
+}

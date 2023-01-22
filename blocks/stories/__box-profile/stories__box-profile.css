@@ -1,0 +1,22 @@
+.stories__box-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 50px;
+}
+
+.stories__box-profile:last-of-type {
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__box-profile {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .stories__box-profile {
+    flex-direction: column;
+  }
+}

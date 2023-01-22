@@ -1,0 +1,29 @@
+.stories__name {
+  font-style: normal;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: #333;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__name {
+    font-size: 16px;
+    line-height: 120%;
+    margin-bottom: 6px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .stories__name:first-of-type {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .stories__name {
+    margin-bottom: 4px;
+  }
+}

@@ -1,0 +1,5 @@
+@media (min-width: 769px) and (max-width: 10000px) {
+  .stories__title_mob {
+    display: none;
+  }
+}
