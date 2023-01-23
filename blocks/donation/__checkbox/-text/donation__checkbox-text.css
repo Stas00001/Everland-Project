@@ -1,0 +1,21 @@
+.donation__checkbox-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 115%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+}
+
+.donation__checkbox-text:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 770px) {
+  .donation__checkbox-text {
+    font-size: 12px;
+    width: 207px;
+  }
+}
+

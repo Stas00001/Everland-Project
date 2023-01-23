@@ -1,0 +1,13 @@
+.donation__checkbox-pseudo {
+  display: inline-block; /* элемент span теперь сможет принимать определённую ширину и высоту */
+  vertical-align: middle; /* элемент и текст будут правильно выровнены по вертикали. Работает в паре с inline-block */
+  width: 25px;
+  height: 25px; /* размеры */
+  background: #dadada;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+
+.donation__checkbox-pseudo:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.people__header {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 120%;
+    text-align: center;
+    display: inline-block;
+    max-width: 490px;
+    margin: 38px auto 74px auto;
+}
+
+
+@media (max-width: 1200px) {
+    .people__header {
+        margin-top: 50px;
+        margin-bottom: 32px;
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 575px) {
+    .people__header {
+        margin-top: 32px;
+        font-size: 18px;
+        max-width: 300px;
+    }
+  }

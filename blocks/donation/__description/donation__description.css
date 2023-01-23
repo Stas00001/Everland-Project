@@ -1,0 +1,29 @@
+.donation__description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    margin: 5px auto 24px auto;
+}
+
+
+@media (max-width: 800px) {
+    .donation__description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 720px) {
+    .donation__description {
+        margin-bottom: 48px;
+    }
+}
+
+@media (max-width: 575px) {
+    .donation__description{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+  }

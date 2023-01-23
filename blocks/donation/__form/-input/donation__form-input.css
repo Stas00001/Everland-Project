@@ -1,0 +1,49 @@
+.donation__form-input {
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  width: 455px;
+  height: 48px;
+  background-color: inherit;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+}
+.donation__form-input::placeholder {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #dadada;
+}
+.donation__form-input:focus::placeholder {
+  color: transparent;
+}
+
+.donation__form-input:focus {
+  outline: 0;
+  border: 1px solid #0c4ba0;
+  background-color: inherit;
+}
+
+.donation__form-input:last-of-type {
+  margin-bottom: 18px;
+}
+
+@media (max-width: 575px) {
+  .donation__form-input {
+    width: 260px;
+    height: 44px;
+    font-size: 14px;
+  }
+  .donation__form-input::placeholder { 
+    font-size: 14px;
+   }
+}

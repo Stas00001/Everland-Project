@@ -1,0 +1,17 @@
+.donation__checkbox-invisible {
+  position: absolute;
+  width: 1px; /* если у элемента не будет размеров, некоторые браузеры посчитают, что его вообще нет */
+  height: 1px;
+  overflow: hidden; /* без этого свойства тоже сработает, но так наверняка.*/
+  clip-path: inset(0 0 0 0);
+}
+
+.donation__checkbox-invisible:checked + .donation__checkbox-pseudo {
+  background-image: url(../../../../images/Icon_check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
