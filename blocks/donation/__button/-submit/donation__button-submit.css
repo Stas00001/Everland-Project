@@ -1,0 +1,33 @@
+.donation__button-submit {
+  width: 194px;
+  height: 48px;
+  margin: 0 auto;
+  background-color: #0c4ba0;
+  border: none;
+  border-radius: 10px;
+  padding: 0;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+}
+
+.donation__button-submit:hover {
+  cursor: pointer;
+  background-color: #4183dc;
+}
+
+.donation__button-submit:focus {
+  background-color: #00275c;
+}
+
+@media (max-width: 575px) {
+  .donation__button-submit {
+    width: 260px;
+  height: 44px;
+  }
+}

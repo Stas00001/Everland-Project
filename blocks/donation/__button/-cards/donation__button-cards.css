@@ -1,0 +1,16 @@
+.donation__button-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 575px) {
+  .donation__button-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 0;
+  }
+}
+    

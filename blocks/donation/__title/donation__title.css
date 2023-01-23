@@ -1,0 +1,23 @@
+.donation__title {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+    .donation__title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .donation__title {
+        font-size: 16px;
+    }
+  }

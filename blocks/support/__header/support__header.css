@@ -1,0 +1,25 @@
+.support__header {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;  
+    margin: 0 0 50px 0;
+    display: inline-block;
+    max-width: 537px;
+}
+
+@media (max-width: 1200px) {
+    .support__header{
+        display: block;
+        text-align: center;
+        margin: 0 auto 24px auto;
+        font-size: 43px;
+    }
+}
+
+@media (max-width: 575px) {
+    .support__header{
+        font-size: 26px;
+    }
+}

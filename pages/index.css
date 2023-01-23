@@ -208,3 +208,40 @@
 @import url(../blocks/subscribe-mobile/subscribe-mobile.css);
 @import url(../blocks/subscribe-mobile/__header-mobile/subscribe__header-mobile.css);
 @import url(../blocks/subscribe-mobile/__logo-mobile/subscribe__logo-mobile.css);
+
+/* Блок Поддержите нас */
+@import url(../blocks/support/__header/support__header.css);
+@import url(../blocks/support/__wrap/support__wrap.css);
+@import url(../blocks/support/support.css);
+@import url(../blocks/support/__container/support__container.css);
+
+@import url(../blocks/people/__header/people__header.css);
+@import url(../blocks/people/__overlay/people__overlay.css);
+@import url(../blocks/people/__payers/_item/_span/people__payers_item_span.css);
+@import url(../blocks/people/__payers/_item/people__payers_item.css);
+@import url(../blocks/people/__payers/people__payers.css);
+@import url(../blocks/people/people.css);
+
+@import url(../blocks/donation/donation.css);
+@import url(../blocks/donation/__button/donation__button.css);
+@import url(../blocks/donation/__button/-card/donation__button-card.css);
+@import url(../blocks/donation/__button/-cards/donation__button-cards.css);
+@import url(../blocks/donation/__button/-money/donation__button-money.css);
+@import url(../blocks/donation/__button/-month-question/donation__button-month-question.css);
+@import url(../blocks/donation/__button/-one-time/donation__button-one-time.css);
+@import url(../blocks/donation/__button/-wrap/donation_button-wrap.css);
+@import url(../blocks/donation/__button/-arrow/donation__button-arrow.css);
+@import url(../blocks/donation/__button/-arrow-down/donation__button-arrow-down.css);
+@import url(../blocks/donation/__div-title/donation__div-title.css);
+@import url(../blocks/donation/__form/-input/donation__form-input.css);
+@import url(../blocks/donation/__form/donation__form.css);
+@import url(../blocks/donation/__title/donation__title.css);
+@import url(../blocks/donation/__description/donation__description.css);
+
+@import url(../blocks/donation/__checkbox/donation__checkbox.css);
+@import url(../blocks/donation/__checkbox/-invisible/donation__checkbox-invisible.css);
+@import url(../blocks/donation/__checkbox/-pseudo/donation__checkbox-pseudo.css);
+@import url(../blocks/donation/__checkbox/-text/donation__checkbox-text.css);
+@import url(../blocks/donation/__checkbox/-text/_link/donation__checkbox-text_link.css);
+
+@import url(../blocks/donation/__button/-submit/donation__button-submit.css);
