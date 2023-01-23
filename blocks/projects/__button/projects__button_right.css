@@ -4,6 +4,7 @@
   height: 35px;
   margin: 0;
   border-style: none;
+  background-color: transparent;
 }
 
 .projects__button_right:hover {

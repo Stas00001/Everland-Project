@@ -5,6 +5,7 @@
   margin: 0;
   border-style: none;
   margin-right: 8px;
+  background-color: transparent;
 }
 
 .projects__button_left:hover {
