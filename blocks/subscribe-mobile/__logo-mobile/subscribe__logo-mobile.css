@@ -1,0 +1,6 @@
+@media (max-width: 600px) {
+    .subscribe__logo-mobile {
+        width: 40px;
+        height: 40px;
+    }
+}

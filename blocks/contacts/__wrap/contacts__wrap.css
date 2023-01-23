@@ -1,0 +1,20 @@
+.contacts__wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 900px) {
+    .contacts__wrap {
+        flex-direction: column;
+        gap: 16px;
+        margin-right: 41px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contacts__wrap {
+        gap: 10px;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+}

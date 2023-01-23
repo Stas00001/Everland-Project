@@ -1,0 +1,10 @@
+.subscribe-mobile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .subscribe-mobile {
+        display: block;
+        margin-bottom: 32px;
+    }
+}

@@ -1,0 +1,24 @@
+.help {
+  max-width: 269px;
+  margin-right: 330px;
+}
+
+@media (max-width: 1377px) {
+  .help {
+    margin-right: 278px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .help {
+    margin-right: 245px;
+  }
+}
+
+@media (max-width: 900px) {
+  .help {
+    margin-right: 209px;
+    width: 181px;
+  }
+}
+
