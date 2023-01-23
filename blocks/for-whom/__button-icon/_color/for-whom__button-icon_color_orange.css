@@ -1,15 +1,15 @@
 .for-whom__button-icon_color_orange {
-    background-image: url('../../../../images/icon/arrow_forward_orange.svg');
+    background-image: url('../../../../images/Icon/arrow_forward_orange.svg');
 }
 
 .for-whom__button_color_orange:hover .for-whom__button-icon_color_orange {
-    background-image: url('../../../../images/icon/arrow_forward_white.svg');
+    background-image: url('../../../../images/Icon/arrow_forward_white.svg');
 }
 
 .for-whom__button_color_orange:active .for-whom__button-icon_color_orange {
-    background-image: url('../../../../images/icon/arrow_forward_white.svg');
+    background-image: url('../../../../images/Icon/arrow_forward_white.svg');
 }
 
 .for-whom__button_color_orange:disabled .for-whom__button-icon_color_orange {
-    background-image: url('../../../../images/icon/arrow_forward_color_disabled.svg');
+    background-image: url('../../../../images/Icon/arrow_forward_color_disabled.svg');
 }
