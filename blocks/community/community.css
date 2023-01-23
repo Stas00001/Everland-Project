@@ -1,0 +1,14 @@
+.community {
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    margin-top: 90px;
+}
+
+
+@media (max-width: 600px) {
+    .community {
+        margin-top: 40px;
+        flex-direction: column;
+    }
+  }

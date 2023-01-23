@@ -1,0 +1,6 @@
+.yandex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 41px;
+}

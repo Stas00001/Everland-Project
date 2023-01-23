@@ -1,0 +1,28 @@
+.telefon {
+    width: 151px;
+    /* display: flex;
+    flex-direction: column; */
+    margin-right: 53px;
+}
+
+@media (max-width: 1200px) {
+    .telefon {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 900px) {
+    .telefon {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .telefon{
+        flex-direction: row;
+        margin-right: 0;
+        width: 220px;
+    }
+  }

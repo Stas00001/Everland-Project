@@ -1,0 +1,13 @@
+.yandex__logo {
+    width: 162px;
+    height: 28px;
+    margin-right: 21px;
+}
+
+@media (max-width: 900px) {
+    .yandex__logo {
+        width: 115px;
+        height: 20px;
+        margin-right: 10px;
+    }
+  }

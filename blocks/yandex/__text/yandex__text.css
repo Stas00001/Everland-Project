@@ -1,0 +1,26 @@
+.yandex__text {
+  display: block;
+  margin: 0;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+}
+
+@media (max-width: 900px) {
+  .yandex__text  {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+  }
+}
+
+@media (max-width: 900px) {
+  .yandex__text  {
+    font-size: 12px;
+  }
+}
