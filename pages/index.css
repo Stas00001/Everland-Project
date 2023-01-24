@@ -112,7 +112,6 @@
 @import url(../blocks/for-whom/__button/_color/for-whom__button_color_blue.css);
 @import url(../blocks/for-whom/__button/_color/for-whom__button_color_orange.css);
 @import url(../blocks/for-whom/__button/_color/for-whom__button_color_green.css);
-@import url(../blocks/for-whom/__button/_color/for-whom__button_color_white.css);
 @import url(../blocks/for-whom/__button-icon/for-whom__button-icon.css);
 @import url(../blocks/for-whom/__button-icon/_color/for-whom__button-icon_color_blue.css);
 @import url(../blocks/for-whom/__button-icon/_color/for-whom__button-icon_color_green.css);
@@ -127,7 +126,7 @@
 @import url(../blocks/directions/__button-icon/directions__button-icon.css);
 @import url(../blocks/directions/__head/directions__head.css);
 @import url(../blocks/directions/__title/directions__title.css);
-@import url(../blocks/directions/__container/directions__container.css);
+@import url(../blocks/directions/__text-container/directions__text-container.css);
 @import url(../blocks/directions/__main-text/directions__main-text.css);
 /*-- Blcok Leveler --*/
 
