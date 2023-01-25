@@ -1,0 +1,8 @@
+.about__list-item-link {
+    text-decoration: none;
+    color: #333333;
+}
+
+.about__list-item-link:hover {
+    color: #4183DC
+}

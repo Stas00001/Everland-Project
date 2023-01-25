@@ -1,0 +1,19 @@
+.for-whom__button_color_blue {
+    background-color: #E7F0FF;
+    color: #0C4BA0;
+}
+
+.for-whom__button_color_blue:hover {
+    background-color: #0C4BA0;
+    color: #FFF;
+  }
+
+.for-whom__button_color_blue:active {
+    background-color: #00275C;
+    color: #FFF;
+}
+
+.for-whom__button_color_blue:disabled {
+    background-color: #C4C4C4;
+    color: #262626;
+}

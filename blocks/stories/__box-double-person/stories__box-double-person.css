@@ -1,0 +1,26 @@
+.stories__box-double-person {
+  background-color: #EAE6FF;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.stories__box-double-person:first-child {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__box-double-person {
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 681px) {
+  .stories__box-double-person {
+    margin: 0px;
+    margin-top: 16px;
+  }
+
+  .stories__box-double-person:first-child {
+    margin: 0px;
+  }
+}

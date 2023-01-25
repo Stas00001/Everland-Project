@@ -1,0 +1,36 @@
+.about__list {
+  list-style-type: none;
+  margin: 0 84px 0 0;
+  padding: 0;
+  max-width: 227px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+}
+
+.about__list:last-of-type {
+  margin-right: 0;
+}
+
+@media (max-width: 900px) {
+  .about__list {
+    font-size: 16px;
+    line-height: 120%;
+  }
+}
+
+@media (max-width: 600px) {
+  .about__list {
+    font-size: 14px;
+    max-width: 140px;
+    margin-right: 18px;
+  }
+  .about__list:last-of-type {
+    margin-right: 0;
+  }
+}

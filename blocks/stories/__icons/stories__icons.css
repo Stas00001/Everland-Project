@@ -1,0 +1,29 @@
+.stories__icons {
+  background-image: url(./../../../images/Icon_stories.svg);
+  background-repeat: no-repeat;
+  width: 63px;
+  height: 27.5px;
+  border-style: none;
+  margin: 15px 0 0 8px;
+  padding-right: 31.5px
+}
+
+@media screen and (max-width: 768px) {
+  .stories__icons {
+    background-image: url(./../../../images/Icon_stories-786.svg);
+    margin: 0;
+    padding: 0;
+    padding-bottom: 12.5px;
+    width: 28.51px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .stories__icons {
+    background-image: url(./../../../images/Icon_stories-320.svg);
+    padding-bottom: 13.86px;
+    width: 24.44px;
+    height: 17.14px;
+  }
+}

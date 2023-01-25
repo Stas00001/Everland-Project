@@ -1,0 +1,20 @@
+.projects__button_right {
+  background-image: url(./../../../images/button-projects-right.svg);
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  border-style: none;
+  background-color: transparent;
+}
+
+.projects__button_right:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__button_right {
+    background-image: url(./../../../images/button-projects-right-24.svg);
+    width: 24px;
+    height: 24px;
+  }
+}

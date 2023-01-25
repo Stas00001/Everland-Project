@@ -1,0 +1,31 @@
+.help__logo {
+    margin-right: 50px;
+}
+
+.help__logo:last-of-type {
+    margin-right: 0;
+}
+
+
+@media (max-width: 900px) {
+    .help__logo {
+        margin-right: 20px;
+    }
+    .help__logo:last-of-type {
+        margin-right: 0;
+        width: 88px;
+        height: 30px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .help__logo {
+        width: 47px;
+        height: 34px;
+    }
+    .help__logo:last-of-type {
+        margin-right: 0;
+        width: 72px;
+        height: 24px;
+    }
+  }

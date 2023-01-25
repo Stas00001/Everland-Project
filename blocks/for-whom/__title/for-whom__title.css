@@ -1,0 +1,29 @@
+.for-whom__title {
+    max-width: min(100%, 1360px);
+    min-width: 300px;
+    margin: 50px auto 0px;
+    padding: 100px 20px 0;
+    font-size: 64px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+@media screen and (max-width: 768px) {
+    .for-whom__title {
+        margin: 50px auto 0px;
+        font-size: 36px;
+        padding: 50px 20px 0;
+
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .for-whom__title {
+        margin: 32px auto 0px;
+        padding: 32px 20px 0;
+        font-size: 26px;
+        text-align: left;
+    }
+}

@@ -1,0 +1,19 @@
+.support__container {
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 100px 104px 100px 40px;
+}
+
+@media (max-width: 1200px) {
+  .support__container {
+    padding: 100px 104px 100px 104px;
+  }
+}
+
+@media (max-width: 992px) {
+  .support__container {
+    padding: 44px 0 44px 0;
+  }
+}
+

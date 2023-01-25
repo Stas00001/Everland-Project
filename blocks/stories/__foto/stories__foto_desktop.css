@@ -1,0 +1,5 @@
+@media (min-width: 150px) and (max-width: 520px) {
+  .stories__foto_desktop {
+    display: none;
+  }
+}

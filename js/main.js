@@ -104,7 +104,7 @@ iconMenu.addEventListener('click', function () {
 //Прокрутка
 
 
-const menuLinks = document.querySelectorAll('.links__item[data-goto]');
+const menuLinks = document.querySelectorAll('.link[data-goto]');
 menuLinks.forEach((menuLink) => {
   menuLink.addEventListener('click', onMenuLinkClick);
 });
@@ -157,10 +157,10 @@ const newsStorage = [
     }
   ];
   const newsMonth = ["января" , "февраля" , "марта" , "апреля" , "мая" , "июня" , "июля" , "августа" , "сентября" , "октября" , "ноября" , "декабря"]
- 
+
   const newsCardStorage = document.querySelector(".news__container");
   const cardTemplate = document.querySelector("#card-news-template").content;
-  
+
   function createNewCard () {
     for (let i = 0; i<=2; i++) {
       const cardNewsNew = cardTemplate.querySelector(".card_news").cloneNode(true);
@@ -174,10 +174,10 @@ const newsStorage = [
 
       const newsDateArray = newsDate.split('.');
       const testT = newsDateArray[1].slice(1);
-    
+
       newsDateArray[1] = newsMonth[testT];
       let newsDateLetterMonth = newsDateArray.join(' ');
-  
+
       cardNewsNewTag.textContent = newsStorage[i].tag;
       cardNewsNewTitle.textContent = newsStorage[i].title;
       cardNewsNewText.textContent = newsStorage[i].text;
@@ -199,7 +199,7 @@ const newsStorage = [
       }
     }
   }
-  
+
   createNewCard ()
 
 console.log();

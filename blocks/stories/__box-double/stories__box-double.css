@@ -1,0 +1,23 @@
+.stories__box-double {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding-top: 99px;
+  margin:  0 0 100px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__box-double {
+    margin: 0 0 62px 0;
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 681px) {
+  .stories__box-double {
+    padding-top: 31px;
+    margin: 0 0 42px 0;
+    flex-direction: column;
+  }
+}
