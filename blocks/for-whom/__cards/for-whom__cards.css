@@ -2,7 +2,7 @@
   max-width: min(100%, 1360px);
   min-width: 300px;
   margin: 50px auto 100px;
-  padding: 0 20px 100px 0;
+  padding: 0 20px 100px 20px;
   display: grid;
   grid-template-columns: repeat(3, minmax(334px, max-content));
   justify-content: center;
@@ -18,7 +18,7 @@
 @media screen and (max-width: 768px) {
   .for-whom__cards {
     margin: 32px auto 50px;
-    padding: 0 20px 50px 0;
+    padding: 0 20px 50px 20px;
 
     grid-template-columns: repeat(1, minmax(450px, max-content));
   }
@@ -27,7 +27,7 @@
 @media screen and (max-width: 460px) {
   .for-whom__cards {
     margin: 24px auto 32px;
-    padding: 0 20px 32px 0;
+    padding: 0 20px 32px 20px;
     grid-template-columns: repeat(1, minmax(300px, max-content));
     gap: 16px;
   }
