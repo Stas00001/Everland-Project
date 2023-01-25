@@ -104,7 +104,7 @@ iconMenu.addEventListener('click', function () {
 //Прокрутка
 
 
-const menuLinks = document.querySelectorAll('.links__item[data-goto]');
+const menuLinks = document.querySelectorAll('.link[data-goto]');
 menuLinks.forEach((menuLink) => {
   menuLink.addEventListener('click', onMenuLinkClick);
 });
@@ -157,10 +157,10 @@ const newsStorage = [
     }
   ];
   const newsMonth = ["января" , "февраля" , "марта" , "апреля" , "мая" , "июня" , "июля" , "августа" , "сентября" , "октября" , "ноября" , "декабря"]
- 
+
   const newsCardStorage = document.querySelector(".news__container");
   const cardTemplate = document.querySelector("#card-news-template").content;
-  
+
   function createNewCard () {
     for (let i = 0; i<=2; i++) {
       const cardNewsNew = cardTemplate.querySelector(".card_news").cloneNode(true);
@@ -174,10 +174,10 @@ const newsStorage = [
 
       const newsDateArray = newsDate.split('.');
       const testT = newsDateArray[1].slice(1);
-    
+
       newsDateArray[1] = newsMonth[testT];
       let newsDateLetterMonth = newsDateArray.join(' ');
-  
+
       cardNewsNewTag.textContent = newsStorage[i].tag;
       cardNewsNewTitle.textContent = newsStorage[i].title;
       cardNewsNewText.textContent = newsStorage[i].text;
@@ -199,7 +199,42 @@ const newsStorage = [
       }
     }
   }
-  
+
   createNewCard ()
 
 console.log();
+
+// slider fotoprojects
+
+const projSlider = document.querySelectorAll('.projects__slider');
+const btnNext = document.querySelector('.projects__button_right');
+const btnPrev = document.querySelector('.projects__button_left');
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function nextSlide() {
+  showSlides(slideIndex += 1);
+}
+function previousSlide() {
+  showSlides(slideIndex -= 1);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  const slides = projSlider;
+    if (n > slides.length) {
+      slideIndex = 1
+    }
+    if (n < 1) {
+      slideIndex = slides.length
+    }
+
+    for (let slide of slides) {
+      slide.style.display = "none";
+    }
+      slides[slideIndex - 1].style.display = "grid";
+}

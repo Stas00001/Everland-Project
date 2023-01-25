@@ -1,0 +1,16 @@
+.for-whom__button-icon {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .for-whom__button-icon {
+        width: 24px;
+        height: 24px;
+        background-size: 20px;
+    }
+}

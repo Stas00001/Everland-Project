@@ -1,0 +1,19 @@
+.people__payers {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1200px) {
+    .people__payers {
+        max-width: 488px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .people__payers {
+        max-width: 280px;
+    }
+  }
+  

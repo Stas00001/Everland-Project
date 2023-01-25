@@ -1,0 +1,24 @@
+.about__wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 483px;
+    margin-right: 116px;
+}
+
+@media (max-width: 1377px) {
+    .about__wrap {
+        margin-right: 60px;
+    }
+}
+
+@media (max-width: 900px) {
+    .about__wrap {
+        margin-right: 66px;
+    }
+}
+
+@media (max-width: 600px) {
+    .about__wrap {
+        margin-right: 0;
+    }
+}

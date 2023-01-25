@@ -1,0 +1,77 @@
+.projects__slider {
+  max-width: 100%;
+  display: grid;
+  align-items: end;
+  animation: mov 50s ease-out;
+  -webkit-animation: mov 50s ease-out;
+  -moz-animation: mov 50s ease-out;
+  -o-animation: mov 50s ease-out;
+  grid-template-areas:
+    "projects__description . projects__image projects__image"
+    "projects__heading . projects__image projects__image"
+    "projects__text . projects__image projects__image"
+    "projects__link projects__buttons projects__image projects__image";
+}
+
+@keyframes mov {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+
+@media screen and (max-width: 1308px) {
+  .projects__slider {
+    grid-template-areas:
+      "projects__description projects__description projects__image projects__image projects__image"
+      "projects__heading projects__heading projects__image projects__image projects__image"
+      "projects__text projects__text projects__image projects__image projects__image"
+      "projects__link projects__buttons  projects__image projects__image projects__image";
+  }
+}
+
+@media screen and (max-width: 811px) {
+  .projects__slider {
+    grid-template-areas:
+      "projects__description . projects__image"
+      "projects__heading projects__heading projects__image"
+      "projects__text projects__text projects__image"
+      "projects__link projects__buttons projects__image";
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .projects__slider {
+    margin: 0 20px;
+    grid-template-areas:
+      "projects__description projects__buttons"
+      "projects__image projects__image"
+      "projects__heading projects__heading"
+      "projects__text projects__text"
+      "projects__link projects__link";
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .projects__slider {
+    margin: 0 10px;
+    padding: 24px 25px;
+    border-radius: 20px;
+    grid-template-areas:
+      "projects__description projects__buttons"
+      "projects__image projects__image"
+      "projects__heading projects__heading"
+      "projects__text projects__text"
+      "projects__link projects__link";
+  }
+}

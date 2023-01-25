@@ -1,0 +1,12 @@
+.donation__button-arrow-down {
+  width: 8.72px;
+  height: 14px;
+  
+  display: none;
+}
+
+@media (max-width: 575px) {
+  .donation__button-arrow-down {
+    display: block;
+  }
+}

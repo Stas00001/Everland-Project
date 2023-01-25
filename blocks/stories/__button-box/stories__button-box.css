@@ -7,6 +7,10 @@
   background-color: #E7F0FF;
 }
 
+.stories__button-box:hover {
+  background-color: #0C4BA0;
+}
+
 @media screen and (max-width: 768px) {
   .stories__button-box {
     max-width: 190px;

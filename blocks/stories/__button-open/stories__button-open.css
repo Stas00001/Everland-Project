@@ -16,6 +16,7 @@
 
 .stories__button-open:hover {
   cursor: pointer;
+  color: #00275C;
 }
 
 @media screen and (max-width: 320px) {

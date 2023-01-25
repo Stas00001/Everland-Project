@@ -1,0 +1,25 @@
+.directions__item {
+    max-width: 450px;
+    min-height: 360px;
+    padding: 30px;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+  
+@media screen and (max-width: 768px) {
+    .directions__item {
+        min-height: 260px;
+        border-radius: 20px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .directions__item {
+        min-height: 220px;
+    }
+}

@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+.stories__button-box:hover .stories__person-button {
+  color: #FFFFFF;
+}
+
 @media screen and (max-width: 768px) {
   .stories__person-button {
     font-size: 16px;
