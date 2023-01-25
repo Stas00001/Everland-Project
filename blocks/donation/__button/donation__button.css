@@ -8,7 +8,7 @@ background-color: inherit;
 border: 1px solid #DADADA;
 border-radius: 10px;
 
-font-family: 'Raleway';
+font-family: 'Raleway', Arial, sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;    
@@ -20,6 +20,7 @@ font-feature-settings: 'pnum' on, 'lnum' on;
 
 .donation__button:hover {
     cursor: pointer;
+    border: 1px solid #00275C
 }
 
 .donation__button:focus {
@@ -34,11 +35,7 @@ font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 
-@media (max-width: 900px) {
-    .donation__button-month { 
-        margin-right: 16px;
-    }
-}
+
 
 @media (max-width: 575px) {
     .donation__button {
