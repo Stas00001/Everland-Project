@@ -5,3 +5,10 @@
   line-height: 130%;
   padding: 0
 }
+
+@media screen and (max-width: 740px) {
+  .everland__subtitle {
+    max-width: 100%;
+    font-size: 14px;
+  }
+}

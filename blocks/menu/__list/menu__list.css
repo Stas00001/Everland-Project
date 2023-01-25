@@ -6,6 +6,7 @@
   padding: 0;
   margin: 40px 0 0 0;
 }
+
 .menu__list > li._active .menu__sub-list {
   opacity: 1;
   visibility: visible;
