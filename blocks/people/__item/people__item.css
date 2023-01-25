@@ -1,0 +1,70 @@
+.people__item {
+  font-family: "Raleway", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  margin-bottom: 59px;
+  margin-left: 46px;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+.people__item:last-child {
+  margin-bottom: 0;
+}
+
+.people__item:nth-child(5) {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.people__item:nth-child(6) {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.people__item:nth-child(7) {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.people__item:nth-child(8) {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1380px) {
+  .people__item:nth-child(5) {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .people__item:nth-child(6) {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .people__item:nth-child(7) {
+    color: rgba(0, 0, 0, 0.1);
+  }
+  .people__item:nth-child(n + 8) {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .people__item {
+    font-size: 14px;
+    margin-bottom: 16px;
+    margin-left: 29px;
+  }
+  .people__item:nth-child(3) {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .people__item:nth-child(4) {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .people__item:nth-child(5) {
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .people__item:nth-child(n + 6) {
+    display: none;
+  }
+}

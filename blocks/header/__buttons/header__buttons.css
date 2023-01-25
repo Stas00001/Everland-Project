@@ -1,5 +1,6 @@
 .header__buttons {
   display: flex;
+  justify-content: flex-end;
   gap: 16px;
 }
 

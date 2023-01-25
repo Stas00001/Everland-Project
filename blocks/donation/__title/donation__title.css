@@ -1,7 +1,11 @@
 .donation__title {
     display: inline-block;
     vertical-align: middle;
+<<<<<<< HEAD
     font-family: 'Raleway';
+=======
+    font-family: 'Raleway', Arial, sans-serif;
+>>>>>>> e8d089993993ee061153187cf280caa11e481bd6
     font-style: normal;
     font-weight: 700;
     font-size: 24px;

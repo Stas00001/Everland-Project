@@ -71,6 +71,7 @@
 @import url(../blocks/everland/__slader-swither/everland__slader-swither.css);
 @import url(../blocks/everland/__subtitle/everland__subtitle.css);
 @import url(../blocks/everland/__title/everland__title.css);
+@import url(../blocks/everland/__title/everland__title_blue.css);
 @import url(../blocks/everland/__text/everland__text.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__btn/header__btn.css);
@@ -128,6 +129,7 @@
 @import url(../blocks/directions/__button-icon/directions__button-icon.css);
 @import url(../blocks/directions/__head/directions__head.css);
 @import url(../blocks/directions/__title/directions__title.css);
+@import url(../blocks/directions/__text-container/directions__text-container.css);
 @import url(../blocks/directions/__container/directions__container.css);
 @import url(../blocks/directions/__main-text/directions__main-text.css);
 /*-- Blcok Leveler --*/
@@ -218,8 +220,8 @@
 
 @import url(../blocks/people/__header/people__header.css);
 @import url(../blocks/people/__overlay/people__overlay.css);
-@import url(../blocks/people/__payers/_item/_span/people__payers_item_span.css);
-@import url(../blocks/people/__payers/_item/people__payers_item.css);
+@import url(../blocks/people/__span/people__span.css);
+@import url(../blocks/people/__item/people__item.css);
 @import url(../blocks/people/__payers/people__payers.css);
 @import url(../blocks/people/people.css);
 
@@ -230,7 +232,7 @@
 @import url(../blocks/donation/__button/-money/donation__button-money.css);
 @import url(../blocks/donation/__button/-month-question/donation__button-month-question.css);
 @import url(../blocks/donation/__button/-one-time/donation__button-one-time.css);
-@import url(../blocks/donation/__button/-wrap/donation_button-wrap.css);
+@import url(../blocks/donation/__wrap/donation__wrap.css);
 @import url(../blocks/donation/__button/-arrow/donation__button-arrow.css);
 @import url(../blocks/donation/__button/-arrow-down/donation__button-arrow-down.css);
 @import url(../blocks/donation/__div-title/donation__div-title.css);
@@ -246,3 +248,5 @@
 @import url(../blocks/donation/__checkbox/-text/_link/donation__checkbox-text_link.css);
 
 @import url(../blocks/donation/__button/-submit/donation__button-submit.css);
+@import url(../blocks/donation/__div-title/-margin/donation__div-title_margin.css);
+@import url(../blocks/donation/__button/-month/donation__button-month.css);

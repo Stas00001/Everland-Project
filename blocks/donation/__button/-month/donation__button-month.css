@@ -1,0 +1,5 @@
+@media (max-width: 900px) {
+    .donation__button-month { 
+        margin-right: 16px;
+    }
+}
