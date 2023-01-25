@@ -2,19 +2,16 @@
   border: 1px solid #DADADA;
   border-radius: 30px;
   padding: 30px;
-  height: 740px;
 }
   
 @media screen and (max-width: 1000px) {
   .card_news {
     padding: 24px;
-    height: 500px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .card_news {
     padding: 24px;
-    height: auto;
   }
 }
