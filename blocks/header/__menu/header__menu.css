@@ -3,10 +3,14 @@
   gap: 10px;
   justify-content: center;
   align-items: center;
+  min-height: 50px;
 }
-
+body._pc .header__menu:hover .menu__body{
+  top: 0;
+}
 @media screen and (max-width: 990px) {
   .header__menu {
   grid-column-start: -1;
+  margin: 0;
   }
 }
