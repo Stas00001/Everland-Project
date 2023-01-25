@@ -28,6 +28,7 @@
 @media (max-width: 575px) {
   .donation__button-submit {
     width: 260px;
-  height: 44px;
+    height: 44px;
+    margin-top: 12px;
   }
 }

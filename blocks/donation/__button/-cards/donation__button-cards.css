@@ -9,7 +9,7 @@
   .donation__button-cards {
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 11px;
     margin-bottom: 0;
   }
 }

@@ -1,5 +1,5 @@
-.people__payers_item {
-  font-family: "Raleway";
+.people__item {
+  font-family: "Raleway", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -9,62 +9,62 @@
   font-feature-settings: "pnum" on, "lnum" on;
 }
 
-.people__payers_item:last-child {
+.people__item:last-child {
   margin-bottom: 0;
 }
 
-.people__payers_item:nth-child(5) {
+.people__item:nth-child(5) {
   color: rgba(0, 0, 0, 0.4);
 }
 
-.people__payers_item:nth-child(6) {
+.people__item:nth-child(6) {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.people__payers_item:nth-child(7) {
+.people__item:nth-child(7) {
   color: rgba(0, 0, 0, 0.2);
 }
 
-.people__payers_item:nth-child(8) {
+.people__item:nth-child(8) {
   color: rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 1380px) {
-  .people__payers_item:nth-child(5) {
+  .people__item:nth-child(5) {
     color: rgba(0, 0, 0, 0.3);
   }
 
-  .people__payers_item:nth-child(6) {
+  .people__item:nth-child(6) {
     color: rgba(0, 0, 0, 0.2);
   }
 
-  .people__payers_item:nth-child(7) {
+  .people__item:nth-child(7) {
     color: rgba(0, 0, 0, 0.1);
   }
-  .people__payers_item:nth-child(n + 8) {
+  .people__item:nth-child(n + 8) {
     display: none;
   }
 }
 
 @media (max-width: 575px) {
-  .people__payers_item {
+  .people__item {
     font-size: 14px;
     margin-bottom: 16px;
     margin-left: 29px;
   }
-  .people__payers_item:nth-child(3) {
+  .people__item:nth-child(3) {
     color: rgba(0, 0, 0, 0.4);
   }
 
-  .people__payers_item:nth-child(4) {
+  .people__item:nth-child(4) {
     color: rgba(0, 0, 0, 0.1);
   }
 
-  .people__payers_item:nth-child(5) {
+  .people__item:nth-child(5) {
     color: rgba(0, 0, 0, 0.1);
   }
 
-  .people__payers_item:nth-child(n + 6) {
+  .people__item:nth-child(n + 6) {
     display: none;
   }
 }

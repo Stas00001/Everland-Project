@@ -36,6 +36,7 @@
     .donation__button-money {
         width: 122px;
         margin-right: 11px;
+        margin-bottom: 17px;
     }
     .donation__button-money:nth-of-type(5) {
         width: 100%;
