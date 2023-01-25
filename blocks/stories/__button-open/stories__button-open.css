@@ -1,0 +1,28 @@
+.stories__button-open {
+  box-sizing: border-box;
+  font-family: 'Raleway';
+  border-radius: 10px;
+  border: 1px #0C4BA0 solid;
+  padding: 12px 35.5px;
+  margin: 13px 18px 17px 0;
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #0C4BA0;
+  text-decoration: none;
+}
+
+.stories__button-open:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .stories__button-open {
+    font-size: 14px;
+    margin: 24px auto 32px auto;
+    width: 100%;
+    text-align: center;
+  }
+}

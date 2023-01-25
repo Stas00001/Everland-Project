@@ -1,0 +1,10 @@
+.subscribe {
+    max-width: 655px;
+    
+}
+
+@media (max-width: 600px) {
+    .subscribe {
+        display: none;
+    }
+  }

@@ -1,0 +1,5 @@
+@media (min-width: 200px) and (max-width: 768px) {
+  .stories__title_desktop {
+    display: none;
+  }
+}

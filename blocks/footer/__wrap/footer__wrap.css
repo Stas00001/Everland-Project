@@ -1,0 +1,19 @@
+.footer__wrap {
+    max-width: 1440px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 80px 146px 84px 40px;
+}
+
+@media (max-width: 1377px) {
+    .footer__wrap {
+        padding: 50px 36px 52px 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer__wrap {
+        padding: 32px 10px 52px 10px;
+    }
+  }

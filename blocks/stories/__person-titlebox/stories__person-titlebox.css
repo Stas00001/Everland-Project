@@ -1,0 +1,12 @@
+.stories__person-titlebox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__person-titlebox {
+    padding: 0;
+  }
+}

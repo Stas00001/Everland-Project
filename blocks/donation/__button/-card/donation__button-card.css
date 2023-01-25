@@ -1,0 +1,33 @@
+.donation__button-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 186px;
+    height: 48px;
+    margin-left: 18px;
+    margin-right: 0;
+    gap: 12px;
+}
+
+@media (max-width: 800px) {
+    .donation__button-card {
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: 720px) {
+    .donation__button-card {
+        margin-left: 0;
+        width: 140px;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 575px) {
+    .donation__button-card {
+        width: 260px;
+    }
+  }
+
+

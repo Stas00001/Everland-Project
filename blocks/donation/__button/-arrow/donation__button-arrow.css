@@ -1,0 +1,5 @@
+@media (max-width: 575px) {
+  .donation__button-arrow {
+    display: none;
+  }
+}

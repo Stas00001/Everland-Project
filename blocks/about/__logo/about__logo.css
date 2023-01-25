@@ -1,0 +1,11 @@
+.about__logo {
+  width: 263px;
+  height: 46px;
+}
+
+@media (max-width: 900px) {
+  .about__logo {
+    width: 137px;
+    height: 24px;
+  }
+}

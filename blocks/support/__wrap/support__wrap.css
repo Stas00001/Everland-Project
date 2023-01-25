@@ -1,0 +1,13 @@
+.support__wrap {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+    .support__wrap{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

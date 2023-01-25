@@ -1,0 +1,22 @@
+.stories__foto {
+  width: 224px;
+  height: 224px;
+  border-radius: 50%;
+  border-color: #c4c4c4;
+  display: block;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__foto {
+    width: 204px;
+    height: 204px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .stories__foto {
+    width: 80px;
+    height: 80px;
+  }
+}

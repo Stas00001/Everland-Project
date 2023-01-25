@@ -1,0 +1,9 @@
+.people {
+    max-width: 488px;
+}
+
+@media (max-width: 1200px) {
+    .people {
+        margin: 0 auto;
+    }
+}
