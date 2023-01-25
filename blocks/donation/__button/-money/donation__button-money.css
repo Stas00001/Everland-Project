@@ -40,10 +40,10 @@
     }
     .donation__button-money:nth-of-type(5) {
         width: 100%;
-        margin-right: 0;    
+        margin-right: 0;
     }
     .donation__button-money:nth-of-type(2n) {
         margin-right: 0;
     }
-   
+
   }

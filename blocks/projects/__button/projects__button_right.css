@@ -1,5 +1,6 @@
 .projects__button_right {
   background-image: url(./../../../images/button-projects-right.svg);
+  background-repeat: no-repeat;
   width: 35px;
   height: 35px;
   margin: 0;
@@ -9,6 +10,7 @@
 
 .projects__button_right:hover {
   cursor: pointer;
+  background-image: url(./../../../images/button-projects-click-right.svg);
 }
 
 @media screen and (max-width: 768px) {
@@ -16,5 +18,11 @@
     background-image: url(./../../../images/button-projects-right-24.svg);
     width: 24px;
     height: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects__button_right:hover {
+    background-image: url(./../../../images/button-projects-click-right-24.svg);
   }
 }

@@ -19,6 +19,7 @@
 
 .projects__link:hover {
   cursor: pointer;
+  border: 2px #333 solid;
 }
 
 @media screen and (max-width: 768px) {

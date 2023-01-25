@@ -11,7 +11,7 @@ border-radius: 10px;
 font-family: 'Raleway', Arial, sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 20px;    
+font-size: 20px;
 line-height: 120%;
 font-feature-settings: 'pnum' on, 'lnum' on;
 }
@@ -29,7 +29,7 @@ font-feature-settings: 'pnum' on, 'lnum' on;
 
 @media (max-width: 900px) {
     .donation__button {
-        font-size: 16px; 
+        font-size: 16px;
         margin-right: 0;
     }
 }

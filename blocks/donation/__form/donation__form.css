@@ -8,6 +8,10 @@
 
 @media (max-width: 575px) {
     .donation__form {
+<<<<<<< HEAD
+        gap: 16px;
+=======
         gap: 11px;
+>>>>>>> e8d089993993ee061153187cf280caa11e481bd6
     }
   }
