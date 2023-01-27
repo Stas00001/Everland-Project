@@ -1,0 +1,11 @@
+.adress {
+    margin: 0 82px 0 0;
+    max-width: 313px;
+}
+
+@media (max-width: 1200px) {
+    .adress {
+        margin-right: 42px;
+    }
+}
+

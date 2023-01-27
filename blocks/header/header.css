@@ -1,0 +1,15 @@
+.header {
+  position: fixed;
+  max-width: 1440px;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 4px 30px rgba(42, 48, 56, 0.1);
+}
+@media screen and (max-width: 720px) {
+  .header {
+    max-width: calc(100% - 20px);
+  }
+}

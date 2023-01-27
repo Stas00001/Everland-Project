@@ -1,0 +1,20 @@
+.subscribe__header {
+  display: block;
+  max-width: 655px;
+  margin: 0 0 11px 0;
+
+  font-family: "Raleway", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+}
+
+@media (max-width: 900px) {
+  .subscribe__header {
+    font-size: 20px;
+    max-width: 187px;
+  }
+}

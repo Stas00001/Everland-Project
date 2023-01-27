@@ -1,0 +1,44 @@
+.donation__button {
+width: 316px;
+height: 48px;
+margin-right: 15px;
+padding: 0;
+align-items: center;
+background-color: inherit;
+border: 1px solid #DADADA;
+border-radius: 10px;
+
+font-family: 'Raleway', Arial, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+
+
+.donation__button:hover {
+    cursor: pointer;
+    border: 1px solid #00275C
+}
+
+.donation__button:focus {
+    border: 1px solid #0C4BA0;
+}
+
+@media (max-width: 900px) {
+    .donation__button {
+        font-size: 16px;
+        margin-right: 0;
+    }
+}
+
+
+
+
+@media (max-width: 575px) {
+    .donation__button {
+        font-size: 14px;
+    }
+  }

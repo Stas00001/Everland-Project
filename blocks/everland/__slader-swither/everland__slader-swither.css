@@ -1,0 +1,23 @@
+.everland__slader-swither {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: -100px 0 90px 0;
+  position: relative;
+  z-index: 5;
+
+}
+
+@media screen and (max-width: 990px) {
+
+.everland__slader-swither {
+  margin: 15px 0 50px 0;
+}
+}
+
+@media screen and (max-width: 740px) {
+.everland__slader-swither {
+  margin: 15px 0 47px 0;
+  justify-content: center;
+}
+}

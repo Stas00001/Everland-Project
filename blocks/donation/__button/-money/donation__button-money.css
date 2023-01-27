@@ -1,0 +1,49 @@
+.donation__button-money {
+    width: 159px;
+    height: 48px;
+    margin-right: 0;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+@media (max-width: 900px) {
+    .donation__button-money {
+        width: 145px;
+        height: 44px;
+        margin-right: 14px;
+    }
+}
+
+@media (max-width: 900px) {
+    .donation__button-money {
+        width: 145px;
+        height: 44px;
+        margin-right: 14px;
+        font-size: 16px;
+    }
+    .donation__button-money:nth-of-type(5) {
+        width: 190px;
+    }
+}
+
+@media (max-width: 800px) {
+    .donation__button-money {
+        margin-right: 9px;
+    }
+}
+
+@media (max-width: 575px) {
+    .donation__button-money {
+        width: 122px;
+        margin-right: 11px;
+        margin-bottom: 17px;
+    }
+    .donation__button-money:nth-of-type(5) {
+        width: 100%;
+        margin-right: 0;
+    }
+    .donation__button-money:nth-of-type(2n) {
+        margin-right: 0;
+    }
+
+  }

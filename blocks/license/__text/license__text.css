@@ -1,0 +1,21 @@
+.license__text {
+  display: block;
+  max-width: 629px;
+  margin: 0;
+  font-family: "Raleway", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: rgba(38, 38, 38, 0.5);
+}
+
+
+@media (max-width: 600px) {
+  .license__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+  }
+}

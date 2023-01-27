@@ -1,0 +1,10 @@
+.people__span {
+  display: inline-block;
+  transform: translate(-59px, 31px);
+}
+
+@media (max-width: 575px) {
+  .people__span {
+    transform: translate(172px, 5px);
+  }
+}

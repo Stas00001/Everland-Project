@@ -1,0 +1,18 @@
+.card-title_agency {
+  font-size: 24px;
+  line-height: 28.8px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .card-title_agency {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .card-title_agency {
+    width: 300px;
+  }
+}

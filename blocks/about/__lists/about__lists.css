@@ -1,0 +1,5 @@
+.about__lists {
+    display: flex;
+    flex-direction: row;
+}
+

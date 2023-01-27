@@ -1,0 +1,9 @@
+.card__img_agency {
+  margin: 0 0 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .card__img_agency {
+    margin: 0 0 16px;
+  }
+}

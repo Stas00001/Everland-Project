@@ -1,0 +1,18 @@
+.header__buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+@media screen and (max-width: 990px) {
+  .header__buttons {
+  grid-column-start: 3;
+    grid-row-start: 1;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .header__buttons {
+  display: none;
+  }
+}

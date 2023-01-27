@@ -1,0 +1,24 @@
+.help__header {
+  display: block;
+  margin: 0 0 19px 0;
+  font-family: "Raleway", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+
+@media (max-width: 900px) {
+  .help__header {
+    font-size: 20px;
+    width: 159px;
+  }
+}
+
+@media (max-width: 600px) {
+  .help__header {
+    font-size: 16px;
+  }
+}

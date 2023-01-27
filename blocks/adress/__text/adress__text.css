@@ -1,0 +1,27 @@
+.adress__text {
+  margin: 0;
+  font-family: "Raleway", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+  display: block;
+  width: 314px;
+}
+
+
+@media (max-width: 900px) {
+  .adress__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+  }
+}
+
+@media (max-width: 600px) {
+  .adress__text {
+    font-size: 12px;
+  }
+}

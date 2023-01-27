@@ -1,0 +1,14 @@
+.stories__button-right {
+  background-image: url(./../../../images/button-stories-right.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  border-style: none;
+}
+
+.stories__button-box:hover .stories__button-right {
+  background-image: url(./../../../images/button-stories-right-click.svg);
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,49 @@
+.donation__div-title {
+    text-align: center;
+    overflow: hidden;
+    margin: 23px 0 16px 0;
+}
+
+.donation__div-title:before,
+.donation__div-title:after {
+    /* Обязательно указываем пустое свойство content, иначе псевдоэлементы не появятся на сайте */
+    content: "";
+    /* Указываем что наши линии будут строчно-блочные и выравнивание по высоте - по центру */
+    display: inline-block;
+    vertical-align: middle;
+    /* Задаем ширину 100% и выбираем высоту линии */
+    width: 100%;
+    height: 1px;
+    /* Добавляем цвет для линии */
+    background-color: #DADADA;
+    /* Добавляем псевдоэлемантам возможность изменить позицию линии, для создания отступов от текста */
+    position: relative;
+}
+
+.donation__div-title:before {
+    /* Смещаем левую линию на 100% влево, чтобы линия встала рядом с текстом слева */
+    margin-left: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    left: -10px;
+}
+
+.donation__div-title:after {
+    /* Смещаем правую линию на 100% вправо, чтобы линия встала рядом с текстом справа */
+    margin-right: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    right: -10px;
+}
+
+@media (max-width: 575px) {
+    .donation__div-title{
+        margin: 32px 0 16px 0;
+    }
+<<<<<<< HEAD
+=======
+    .rrr{
+        margin: 17px 0 16px 0;
+    }
+    
+>>>>>>> e8d089993993ee061153187cf280caa11e481bd6
+  }
+

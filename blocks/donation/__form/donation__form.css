@@ -1,0 +1,17 @@
+.donation__form {
+    margin: 28px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+
+@media (max-width: 575px) {
+    .donation__form {
+<<<<<<< HEAD
+        gap: 16px;
+=======
+        gap: 11px;
+>>>>>>> e8d089993993ee061153187cf280caa11e481bd6
+    }
+  }

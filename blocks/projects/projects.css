@@ -1,0 +1,18 @@
+.projects {
+  background-color: #e7f0ff;
+  border-radius: 30px;
+  margin: 0 40px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 730px) {
+  .projects {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .projects {
+    margin: 0 10px;
+  }
+}

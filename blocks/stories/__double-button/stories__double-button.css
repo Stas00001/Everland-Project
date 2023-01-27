@@ -1,0 +1,18 @@
+.stories__double-button {
+  background-image: url(./../../../images/button-stories-double.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  border-style: none;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__double-button {
+    background-image: url(./../../../images/button-stories-double-mob.svg);
+    width: 28px;
+    height: 28px;
+  }
+}

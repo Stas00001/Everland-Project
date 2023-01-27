@@ -1,0 +1,47 @@
+.projects__link {
+  box-sizing: border-box;
+  align-self: end;
+  border-radius: 10px;
+  max-width: 193px;
+  color: #333;
+  border: 1px #333 solid;
+  padding: 12px 38px;
+  margin-top: 22px;
+  background-color: #E7F0FF;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  text-decoration: none;
+  grid-area: projects__link;
+}
+
+.projects__link:hover {
+  cursor: pointer;
+  border: 2px #333 solid;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__link {
+    font-size: 16px;
+    padding: 12.5px 53px;
+    margin-top: 37px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .projects__link {
+    width: 100%;
+    margin: 37px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .projects__link {
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 13.5px 83.5px;
+    max-width: 250px;
+  }
+}

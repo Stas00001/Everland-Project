@@ -1,0 +1,29 @@
+.about__text {
+  display: block;
+  margin: 21px 0 0 0;
+  max-width: 483px;
+
+  font-family: "Raleway", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+}
+
+@media (max-width: 900px) {
+  .about__text {
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about__text {
+    font-size: 12px;
+    line-height: 120%;
+    max-width: 300px;
+    white-space: pre-line;
+  }
+}

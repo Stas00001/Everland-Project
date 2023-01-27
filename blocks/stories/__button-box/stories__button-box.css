@@ -1,0 +1,24 @@
+.stories__button-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 229px;
+  border-radius: 10px;
+  background-color: #E7F0FF;
+}
+
+.stories__button-box:hover {
+  background-color: #0C4BA0;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__button-box {
+    max-width: 190px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .stories__button-box {
+    max-width: 173px;
+  }
+}

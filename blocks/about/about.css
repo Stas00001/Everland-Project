@@ -1,0 +1,12 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+@media (max-width: 600px) {
+    .about {
+        flex-direction: column;
+        gap: 40px;
+    }
+  }
